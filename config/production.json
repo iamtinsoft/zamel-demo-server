@@ -1,0 +1,8 @@
+{
+  "db_host": "localhost",
+  "db_user": "root",
+  "db_password": "root",
+  "db_database": "zamel_db",
+  "port": "8000",
+  "requiresAuth": true
+}

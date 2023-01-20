@@ -1,0 +1,9 @@
+{
+  "db_host": "localhost",
+  "db_user": "root",
+  "db_password": "",
+  "db_database": "zamel_db",
+  "port": "5000",
+  "requiresAuth": false,
+  "jwtPrivateKey": "todo_jwtPrivateKey"
+}
