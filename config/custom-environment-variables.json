@@ -1,7 +1,15 @@
 {
-  "jwtPrivateKey": "todo_jwtPrivateKey",
-  "db_host": "localhost",
-  "db_user": "root",
-  "db_password": "root",
-  "db_database": "zamel_db"
+  "db_host": "db_host",
+  "db_user": "db_user",
+  "db_password": "db_password",
+  "db_database": "db_database",
+  "port": "port",
+  "jwtPrivateKey": "jwtPrivateKey",
+  "mail_host": "mail_host",
+  "mail_port": "mail_port",
+  "mail_user": "mail_user",
+  "mail_password": "mail_password",
+  "cloudinary_cloud_name": "cloudinary_cloud_name",
+  "cloudinary_api_key": "cloudinary_api_key",
+  "cloudinary_api_secret": "cloudinary_api_secret"
 }
