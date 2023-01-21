@@ -1,8 +1,9 @@
+const config = require("config/");
 const cloudinary = require("cloudinary");
 cloudinary.config({
-  cloud_name: "tinsoft-technologies",
-  api_key: "258468962871469",
-  api_secret: "4FLZfZwulpmkTqiklxTFcf4DATo",
+  cloud_name: config.get("cloudinary_cloud_name"),
+  api_key: config.get("cloudinary_api_key"),
+  api_secret: config.get("cloudiary_api_secret"),
 });
 
 exports.uploads = (file, folder) => {

@@ -1,12 +1,17 @@
+const config = require("config");
 const nodemailer = require("nodemailer");
 const ejs = require("ejs");
+let mailHost = config.get("mail_host");
+let mailPort = config.get("mail_port");
+let mailUser = config.get("mail_user");
+let mailPassword = config.get("mail_password");
 
 const transport = nodemailer.createTransport({
-  host: "server275.web-hosting.com",
-  port: "465",
+  host: mailHost,
+  port: mailPort,
   auth: {
-    user: "notifications@ojubeauty.com",
-    pass: "@Hidemyass2",
+    user: mailUser,
+    pass: mailPassword,
   },
 });
 
@@ -22,7 +27,7 @@ const sendEmail = async (receiver, subject, content, user) => {
         console.log(err);
       } else {
         var mailOptions = {
-          from: "notifications@ojubeauty.com",
+          from: mailUser,
           to: receiver,
           subject: subject,
           html: data,
@@ -58,7 +63,7 @@ const sendWelcomeEmail = async (
         console.log(err);
       } else {
         var mailOptions = {
-          from: "notifications@ojubeauty.com",
+          from: mailUser,
           to: receiver,
           subject: subject,
           html: data,
