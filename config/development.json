@@ -6,11 +6,11 @@
   "port": "5000",
   "requiresAuth": false,
   "jwtPrivateKey": "todo_jwtPrivateKey",
-  "mail_host": "server275.web-hosting.com",
+  "mail_host": "",
   "mail_port": "465",
-  "mail_user": "notifications@ojubeauty.com",
-  "mail_password": "@Hidemyass2",
-  "cloudinary_cloud_name": "tinsoft-technologies",
-  "cloudinary_api_key": "258468962871469",
-  "cloudinary_api_secret": "4FLZfZwulpmkTqiklxTFcf4DATo"
+  "mail_user": "",
+  "mail_password": "",
+  "cloudinary_cloud_name": "",
+  "cloudinary_api_key": "",
+  "cloudinary_api_secret": ""
 }
