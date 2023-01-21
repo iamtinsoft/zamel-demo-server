@@ -1,10 +1,10 @@
 const config = require("config");
 const nodemailer = require("nodemailer");
 const ejs = require("ejs");
-let mailHost = config.get("mail_host");
-let mailPort = config.get("mail_port");
-let mailUser = config.get("mail_user");
-let mailPassword = config.get("mail_password");
+let mailHost = process.env.mail_host;
+let mailPort = process.env.mail_port;
+let mailUser = process.env.mail_user;
+let mailPassword = process.env.mail_password;
 
 const transport = nodemailer.createTransport({
   host: mailHost,

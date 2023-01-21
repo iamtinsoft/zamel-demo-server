@@ -1,5 +1,5 @@
 {
-  "db_host": "localhost",
+  "db_host": "sql8.freemysqlhosting.net",
   "db_user": "root",
   "db_password": "",
   "db_database": "zamel_db",
