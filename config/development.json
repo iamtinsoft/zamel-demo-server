@@ -1,8 +1,8 @@
 {
   "db_host": "sql8.freemysqlhosting.net",
-  "db_user": "root",
-  "db_password": "",
-  "db_database": "zamel_db",
+  "db_user": "sql8592202",
+  "db_password": "uQjhRqc98r",
+  "db_database": "sql8592202",
   "port": "5000",
   "requiresAuth": false,
   "jwtPrivateKey": "todo_jwtPrivateKey",
